@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="breaking-news">
+            Breaking News Test
+        </div>
+        <div class="container navbar">
+            <div class="logo">
+                The Daily <span>News</span>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Opinion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- main area -->
+    <div class="container container-wrapper">
+        <main class="main-news">
+            <!-- Featured Story -->
+             <article class="featured-article">
+                <div class="img-placeholder">Cover Image Placeholder</div>
+                <div class="article-content">
+                    <span class="article-category">Technology</span>
+                    <h2>Web Development Hits New Highs in 2025</h2>
+                    <p>
+                        Experts Say That Learning To Code Is The Most Valuable Skill This Year.
+                        More Beginners are Building Their Own Websites Using Simple HTML and CSS Layouts Just Like This One
+                    </p>
+                    <a href="#" style="color: #d63031 ; text-decoration: none ; font-size: 20px ;font-weight: bold;">Read Full Story ➡</a>
+                </div>
+             </article>
+
+            <!-- Secondary Stories Grid -->
+             <div class="news-grid">
+                <div class="news-card">
+                    <span class="article-category">World</span>
+                    <h3>Global Internet Speed Increase</h3>
+                    <p>New Fiber Optic Cables Have Been laid Across The Atlantic , Boosting Connection Speed For Millions.</p>
+                </div>
+                <div class="news-card">
+                    <span class="article-category">Science</span>
+                    <h3>Mars Mission Update</h3>
+                    <p>The Latest Rover Has Sent Back High-definition Images Of The Red Planet's Surface</p>
+                </div>
+             </div>
+        </main>
+
+
+        <aside class="sidebar">
+            <!-- Trending Widget -->
+             <div class="sidebar-widget">
+                <h3 class="hed">Trending Now 📈</h3>
+                <ul class="trending-list">
+                    <li><a href="#">1.How To Center a div</a></li>
+                    <li><a href="#">2.Flexbox Vs Grid</a></li>
+                    <li><a href="#">3.Best Code Editors 2025</a></li>
+                    <li><a href="#">4.Why Css is Awesome</a></li>
+                </ul>
+             </div>
+
+             <!-- Subscrib Widget -->
+              <div class="sidebar-widget">
+                <h3 class="hed">Newsletter</h3>
+                <p>Get The lates News Sent to Youer inbox.</p>
+                <input class="inp"  type="email" placeholder="Youer email..." style="width: 97%;">
+                <button class="subscribe-btn" style="width: 100%; padding: 8px; background-color: #333; color: white;">Subscribe</button>
+              </div>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2025 The Daily News Website</p>
+    </footer>
+</body>
+</html>
